@@ -5,13 +5,14 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import java from "../assets/java.png";
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
-import node from "../assets/node.png";
-import express from "../assets/express.png"
-import mongodb from "../assets/mongodb.png"
-import redux from "../assets/redux.png"
+import native from "../assets/native.png";
+import git from "../assets/git.png";
+import ts from "../assets/ts.png"
+import python from "../assets/python.png"
+import sql from "../assets/sql.png"
+
 const Experience = () => {
   const techs = [
     {
@@ -40,9 +41,9 @@ const Experience = () => {
     },
     {
       id: 5,
-      src: node,
-      title: "NodeJs",
-      style: "shadow-green-400",
+      src: python,
+      title: "Python",
+      style: "shadow-blue-400",
     },
     {
       id: 6,
@@ -52,9 +53,9 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: git,
+      title: "Git",
+      style: "shadow-red-300",
     },
     {
       id: 8,
@@ -64,27 +65,27 @@ const Experience = () => {
     },
     {
       id: 9,
-      src: tailwind,
-      title: "Tailwind",
+      src: java,
+      title: "Java",
       style: "shadow-sky-400",
     },
     {
       id: 10,
-      src: express,
-      title: "Express",
-      style: "shadow-white",
+      src: native,
+      title: "React Native",
+      style: "shadow-sky-600",
     },
     {
       id: 11,
-      src: mongodb,
-      title: "MongoDB",
-      style: "shadow-green-500",
+      src: ts,
+      title: "TypeScript",
+      style: "shadow-sky-300",
     },
     {
       id: 12,
-      src: redux,
-      title: "Redux",
-      style: "shadow-purple-500",
+      src: sql,
+      title: "SQL",
+      style: "shadow-sky-500",
     },
   ];
 

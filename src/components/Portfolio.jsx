@@ -1,48 +1,48 @@
 import React from "react";
-import api from "../assets/portfolio/api.jpg";
-import apod from "../assets/portfolio/apod.jpg";
-import iptracker from "../assets/portfolio/iptracker.jpg";
-import nftportal from "../assets/portfolio/nftportal.jpg";
-import webpostman from "../assets/portfolio/webpostman.jpg";
-import waveportal from "../assets/portfolio/waveportal.jpg";
+import calorie from "../assets/portfolio/calorie.jpg";
+import workhour from "../assets/portfolio/workhour.jpg";
+import quiz from "../assets/portfolio/quiz.jpg";
+import infoscreen from "../assets/portfolio/infoscreen.jpg";
+import converter from "../assets/portfolio/converter.jpg";
+import aava from "../assets/portfolio/aava.jpg"
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: api,
-      link: 'https://crypto-info-api.cyclic.app/',
-      repo: 'https://github.com/rahulkarda/crypto-info-api'
+      src: calorie,
+      link: 'https://op2-white.github.io/Frontend/',
+      repo: 'https://github.com/OP2-White'
     },
     {
       id: 2,
-      src: webpostman,
-      link: 'https://webpostman.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
+      src: infoscreen,
+      link: 'https://eha-infoscreen.vercel.app/',
+      repo: 'https://github.com/EHA-Display-Terminal-Team/eha-infoscreen'
     },
     {
       id: 3,
-      src: apod,
-      link: 'https://apodbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NASA-APOD'
+      src: aava,
+      link: 'https://aava.vercel.app/',
+      repo: 'https://github.com/Junction2024/Aava'
     },
     {
       id: 4,
-      src: waveportal,
-      link: 'https://waveatrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Wave-Portal'
+      src: converter,
+      link: '',
+      repo: 'https://github.com/HarryNguye/CurrencyConverter'
     },
     {
       id: 5,
-      src: nftportal,
-      link: 'https://nftportalbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NFT-Portal'
+      src: quiz,
+      link: '',
+      repo: 'https://github.com/HarryNguye/QuizApp'
     },
     {
       id: 6,
-      src: iptracker,
-      link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/rahulkarda/IP-Address-Tracker'
+      src: workhour,
+      link: '',
+      repo: 'https://github.com/HarryNguye/Workhourtracker'
     },
   ];
 

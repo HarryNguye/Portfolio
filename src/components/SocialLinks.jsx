@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import resume from "../assets/resume.pdf"
+
 const SocialLinks = () => {
   const links = [
     {
@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com/in/rahulkarda2002",
+      href: "https://www.linkedin.com/in/harrynguyen03/",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/rahulkarda",
+      href: "https://github.com/HarryNguye",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Email <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:rahulkarda2002@gmail.com",
+      href: "mailto:harrynguyen100603@gmail.com",
     },
     {
       id: 4,
@@ -40,8 +40,10 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: resume,
-      download: true,
+      href: "https://haagahelia-my.sharepoint.com/personal/bgz841_myy_haaga-helia_fi/Documents/Harry%20CV%202024%20%202.pdf?login_hint=bgz841%40myy.haaga-helia.fi",
+      style: "", // Optional additional styling
+      target: "_blank", // Opens in a new tab
+      rel: "noopener noreferrer", // Security attributes for external links
     },
     {
       id: 5,
@@ -50,7 +52,7 @@ const SocialLinks = () => {
           Twitter <FaTwitter size={30} />
         </>
       ),
-      href: "https://twitter.com/rahulkarda2002",
+      href: "https://twitter.com/harrymakane",
       style: "rounded-br-md",
     },
   ];
@@ -58,7 +60,7 @@ const SocialLinks = () => {
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
-        {links.map(({ id, child, href, style, download }) => (
+        {links.map(({ id, child, href, style, target, rel }) => (
           <li
             key={id}
             className={
@@ -70,9 +72,8 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              download={download}
-              target="_blank"
-              rel="noreferrer"
+              target={target || "_self"}
+              rel={rel || "noreferrer"}
             >
               {child}
             </a>
