@@ -17,7 +17,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: infoscreen,
-      link: 'https://eha-infoscreen.vercel.app/',
+      link: 'https://redstone-infoscreen.vercel.app/',
       repo: 'https://github.com/EHA-Display-Terminal-Team/eha-infoscreen'
     },
     {
